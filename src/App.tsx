@@ -22,7 +22,7 @@ function App() {
                 <div className="max-w-5xl mx-auto">
                   <div className="text-center mb-16 md:mb-20">
                     <div className="flex justify-center mb-8">
-                      <img src={mcLogo} alt="The Millennial Circuit Logo" className="h-24 w-auto object-contain" />
+                      <img src={mcLogo} alt="The Millennial Circuit Logo" className="h-60 w-auto object-contain" />
                     </div>
 
                     <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight leading-tight">
