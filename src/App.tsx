@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Sparkles, Users, Zap, MapPin, Ticket, UserPlus } from 'lucide-react';
+import mcLogo from './mc-logo.png';
 import type { TicketDisplayProps } from './components/TicketDisplay';
 type TicketType = TicketDisplayProps['ticket'];
 import RSVPForm from './components/RSVPForm';
@@ -20,8 +21,8 @@ function App() {
               <div className="container mx-auto px-4 py-12 md:py-20">
                 <div className="max-w-5xl mx-auto">
                   <div className="text-center mb-16 md:mb-20">
-                    <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-full mb-8 animate-pulse">
-                      <Sparkles className="w-8 h-8 text-white" />
+                    <div className="flex justify-center mb-8">
+                      <img src={mcLogo} alt="The Millennial Circuit Logo" className="h-24 w-auto object-contain" />
                     </div>
 
                     <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight leading-tight">
